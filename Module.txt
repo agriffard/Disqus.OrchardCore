@@ -1,0 +1,8 @@
+﻿Name: Disqus
+AntiForgery: enabled
+Author: Antoine Griffard
+Website: http://orchardproject.net
+Version: 0.0.1
+OrchardVersion: 1.0.0-beta1
+Description: The Disqus module allows you to add comments on a content type.
+Category: Comments
