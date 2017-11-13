@@ -1,5 +1,6 @@
 # Disqus.OrchardCore
 Disqus module for Orchard Core.
+Allows you to add a Disqus comment section to a content type.
 
 ## Status
 [![NuGet](https://img.shields.io/nuget/v/Disqus.OrchardCore.svg)](https://www.nuget.org/packages/Disqus.OrchardCore)
