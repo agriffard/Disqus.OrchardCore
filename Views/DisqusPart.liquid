@@ -2,7 +2,7 @@
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = 'http://localhost:33554{{ Site.BaseUrl }}{{ Model.ContentItem | display_url }}'; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = '{{ Site.BaseUrl }}{{ Model.ContentItem | display_url }}'; // Replace PAGE_URL with your page's canonical URL variable
         this.page.identifier = '{{ Model.ContentItem.ContentItemId }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     (function () { // DON'T EDIT BELOW THIS LINE
