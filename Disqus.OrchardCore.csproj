@@ -5,10 +5,12 @@
     <Description>The Disqus module allows you to add comments on a content type.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Antoine Griffard</Authors>
-    <Version>1.0.0-beta1</Version>
+    <Version>1.0.0-beta1-0001</Version>
     <PackageId>Disqus.OrchardCore</PackageId>
     <Company />
     <PackageTags>OrchardCore Disqus</PackageTags>
+    <PackageProjectUrl>https://github.com/agriffard/Disqus.OrchardCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/agriffard/Disqus.OrchardCore</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
