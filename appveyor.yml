@@ -13,7 +13,7 @@ build_script:
   - dotnet build -c Release
   - dotnet pack -c Release
 artifacts:
-  - path: 'disqus-orchardcore\**\*.nupkg'
+  - path: '**\*.nupkg'
 deploy:
   - provider: NuGet
     on:
