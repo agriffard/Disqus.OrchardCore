@@ -17,7 +17,7 @@ namespace Disqus.OrchardCore.Settings
                 return null;
             }
 
-            return Shape<DisqusPartSettingsViewModel>("DisqusPartSettings_Edit", model =>
+            return Initialize<DisqusPartSettingsViewModel>("DisqusPartSettings_Edit", model =>
             {
                 var settings = contentTypePartDefinition.GetSettings<DisqusPartSettings>();
 

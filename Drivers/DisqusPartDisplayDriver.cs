@@ -22,16 +22,16 @@ namespace Disqus.OrchardCore.Drivers
         public override IDisplayResult Display(DisqusPart disqusPart)
         {
             return Combine(
-                Shape<DisqusPartViewModel>("DisqusPart", m => BuildViewModel(m, disqusPart))
+                Initialize<DisqusPartViewModel>("DisqusPart", m => BuildViewModel(m, disqusPart))
                     .Location("Detail", "Content:20"),
-                Shape<DisqusPartViewModel>("DisqusPart_Summary", m => BuildViewModel(m, disqusPart))
+                Initialize<DisqusPartViewModel>("DisqusPart_Summary", m => BuildViewModel(m, disqusPart))
                     .Location("Summary", "Meta:5")
             );
         }
         
         public override IDisplayResult Edit(DisqusPart DisqusPart)
         {
-            return Shape<DisqusPartViewModel>("DisqusPart_Edit", m => BuildViewModel(m, DisqusPart));
+            return Initialize<DisqusPartViewModel>("DisqusPart_Edit", m => BuildViewModel(m, DisqusPart));
         }
 
         public override async Task<IDisplayResult> UpdateAsync(DisqusPart model, IUpdateModel updater)
