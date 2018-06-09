@@ -5,13 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.Modules.Abstractions" Version="1.0.0-beta2-6186" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-beta2-6186" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.Modules.Abstractions" Version="1.0.0-beta2-6209" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-beta2-6209" />
   </ItemGroup>
   
   <ItemGroup>
