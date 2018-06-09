@@ -10,6 +10,6 @@
   </PropertyGroup>
 
   <!-- Called after so that the <VersionSuffix> is built after the local ones -->
-  <Import Project="../Common.props"/>
+  <Import Project="Common.props"/>
 
 </Project>
