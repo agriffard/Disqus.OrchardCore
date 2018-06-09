@@ -2,15 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>The Disqus module allows you to add comments on a content type.</Description>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Authors>Antoine Griffard</Authors>
-    <Version>1.0.0</Version>
-    <PackageId>Disqus.OrchardCore</PackageId>
-    <Company />
-    <PackageTags>OrchardCore Disqus</PackageTags>
-    <PackageProjectUrl>https://github.com/agriffard/Disqus.OrchardCore</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/agriffard/Disqus.OrchardCore</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
