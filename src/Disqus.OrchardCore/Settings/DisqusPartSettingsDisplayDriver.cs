@@ -10,7 +10,7 @@ namespace Disqus.OrchardCore.Settings
 {
     public class DisqusPartSettingsDisplayDriver : ContentTypePartDefinitionDisplayDriver
     {
-        public override IDisplayResult Edit(ContentTypePartDefinition contentTypePartDefinition, IUpdateModel updater)
+        public override IDisplayResult Edit(ContentTypePartDefinition contentTypePartDefinition)
         {
             if (!String.Equals(nameof(DisqusPart), contentTypePartDefinition.PartDefinition.Name, StringComparison.Ordinal))
             {
