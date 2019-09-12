@@ -6,7 +6,7 @@
     <RepositoryUrl>https://github.com/agriffard/Disqus.OrchardCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/Disqus.OrchardCore</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/agriffard/Disqus.OrchardCore/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DebugType>embedded</DebugType>
