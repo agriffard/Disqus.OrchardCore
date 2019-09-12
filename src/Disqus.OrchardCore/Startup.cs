@@ -25,9 +25,5 @@ namespace Disqus.OrchardCore
             services.AddScoped<IDataMigration, Migrations>();
             services.AddScoped<IContentPartHandler, DisqusPartHandler>();
         }
-
-        public override void Configure(IApplicationBuilder builder, IRouteBuilder routes, IServiceProvider serviceProvider)
-        {
-        }
     }
 }
