@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-beta3-71077" />
-    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-beta3-71077" />
-    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-beta3-71077" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta3-71077" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta3-71077" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-beta3-71077" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-beta3-72467" />
+    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-beta3-72467" />
+    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-beta3-72467" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta3-72467" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta3-72467" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-beta3-72467" />
   </ItemGroup>
   
   <ItemGroup>
