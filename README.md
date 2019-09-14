@@ -5,6 +5,7 @@ Allows you to add a Disqus comment section to a content type.
 
 ## Status
 
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/ci1fvyn730l6l356?svg=true)](https://ci.appveyor.com/project/agriffard/disqus-orchardcore)
 [![NuGet](https://img.shields.io/nuget/v/Disqus.OrchardCore.svg)](https://www.nuget.org/packages/Disqus.OrchardCore)
 
 ## Getting Started
