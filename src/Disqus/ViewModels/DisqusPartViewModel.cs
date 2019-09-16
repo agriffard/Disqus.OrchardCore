@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using OrchardCore.ContentManagement;
-using Disqus.OrchardCore.Models;
-using Disqus.OrchardCore.Settings;
+using Disqus.Models;
+using Disqus.Settings;
 
-namespace Disqus.OrchardCore.ViewModels
+namespace Disqus.ViewModels
 {
     public class DisqusPartViewModel
     {

@@ -4,9 +4,9 @@ using OrchardCore.ContentManagement.Metadata.Models;
 using OrchardCore.ContentTypes.Editors;
 using OrchardCore.DisplayManagement.ModelBinding;
 using OrchardCore.DisplayManagement.Views;
-using Disqus.OrchardCore.Models;
+using Disqus.Models;
 
-namespace Disqus.OrchardCore.Settings
+namespace Disqus.Settings
 {
     public class DisqusPartSettingsDisplayDriver : ContentTypePartDefinitionDisplayDriver
     {

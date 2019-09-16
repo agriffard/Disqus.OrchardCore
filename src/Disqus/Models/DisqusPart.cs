@@ -1,6 +1,6 @@
 ﻿using OrchardCore.ContentManagement;
 
-namespace Disqus.OrchardCore.Models
+namespace Disqus.Models
 {
     public class DisqusPart : ContentPart
     {

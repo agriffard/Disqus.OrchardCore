@@ -1,10 +1,7 @@
-﻿using System;
-using Disqus.OrchardCore.Drivers;
-using Disqus.OrchardCore.Handlers;
-using Disqus.OrchardCore.Models;
-using Disqus.OrchardCore.Settings;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Routing;
+﻿using Disqus.Drivers;
+using Disqus.Handlers;
+using Disqus.Models;
+using Disqus.Settings;
 using Microsoft.Extensions.DependencyInjection;
 using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Display.ContentDisplay;
@@ -13,7 +10,7 @@ using OrchardCore.ContentTypes.Editors;
 using OrchardCore.Data.Migration;
 using OrchardCore.Modules;
 
-namespace Disqus.OrchardCore
+namespace Disqus
 {
     public class Startup : StartupBase
     {

@@ -2,7 +2,7 @@
 using OrchardCore.ContentManagement.Metadata;
 using OrchardCore.Data.Migration;
 
-namespace Disqus.OrchardCore
+namespace Disqus
 {
     public class Migrations : DataMigration
     {

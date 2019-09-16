@@ -4,11 +4,11 @@ using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.ContentManagement.Metadata;
 using OrchardCore.DisplayManagement.ModelBinding;
 using OrchardCore.DisplayManagement.Views;
-using Disqus.OrchardCore.Models;
-using Disqus.OrchardCore.Settings;
-using Disqus.OrchardCore.ViewModels;
+using Disqus.Models;
+using Disqus.Settings;
+using Disqus.ViewModels;
 
-namespace Disqus.OrchardCore.Drivers
+namespace Disqus.Drivers
 {
     public class DisqusPartDisplayDriver : ContentPartDisplayDriver<DisqusPart>
     {

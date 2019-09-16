@@ -1,8 +1,8 @@
 ﻿using OrchardCore.ContentManagement.Handlers;
-using Disqus.OrchardCore.Models;
+using Disqus.Models;
 using System.Threading.Tasks;
 
-namespace Disqus.OrchardCore.Handlers
+namespace Disqus.Handlers
 {
     public class DisqusPartHandler : ContentPartHandler<DisqusPart>
     {
