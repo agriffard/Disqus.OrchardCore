@@ -15,8 +15,4 @@
     <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc1-11270" />
   </ItemGroup>
 
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-
 </Project>
