@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disqus", "src\Disqus\Disqus.csproj", "{35A0F713-5034-4426-9900-BD82288CA09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disqus.OrchardCore", "src\Disqus\Disqus.OrchardCore.csproj", "{35A0F713-5034-4426-9900-BD82288CA09D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2042DFF-CA49-40A7-AE6A-2CA007FA9133}"
 	ProjectSection(SolutionItems) = preProject
