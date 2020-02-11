@@ -16,11 +16,11 @@ namespace Disqus
     {
         public override void ConfigureServices(IServiceCollection services)
         {
-            services.AddContentPart<DisqusPart>(); 
-            services.AddScoped<IContentPartDisplayDriver, DisqusPartDisplayDriver>();
+            services.AddContentPart<DisqusPart>()
+                .UseDisplayDriver<DisqusPartDisplayDriver>()
+                .AddHandler<DisqusPartHandler>();
             services.AddScoped<IContentTypePartDefinitionDisplayDriver, DisqusPartSettingsDisplayDriver>();
             services.AddScoped<IDataMigration, Migrations>();
-            services.AddScoped<IContentPartHandler, DisqusPartHandler>();
         }
     }
 }
