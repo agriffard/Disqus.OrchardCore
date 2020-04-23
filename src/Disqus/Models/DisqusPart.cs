@@ -1,9 +1,9 @@
 ﻿using OrchardCore.ContentManagement;
 
-namespace Disqus.Models
+namespace Disqus.OrchardCore.Models
 {
     public class DisqusPart : ContentPart
     {
-        public bool ShowComments { get; set; }
+        public bool HideComments { get; set; }
     }
 }

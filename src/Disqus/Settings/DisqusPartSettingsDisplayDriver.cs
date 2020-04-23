@@ -1,12 +1,11 @@
-using System;
-using System.Threading.Tasks;
+using Disqus.OrchardCore.Models;
 using OrchardCore.ContentManagement.Metadata.Models;
 using OrchardCore.ContentTypes.Editors;
-using OrchardCore.DisplayManagement.ModelBinding;
 using OrchardCore.DisplayManagement.Views;
-using Disqus.Models;
+using System;
+using System.Threading.Tasks;
 
-namespace Disqus.Settings
+namespace Disqus.OrchardCore.Settings
 {
     public class DisqusPartSettingsDisplayDriver : ContentTypePartDefinitionDisplayDriver
     {

@@ -1,4 +1,4 @@
-﻿namespace Disqus.Settings
+﻿namespace Disqus.OrchardCore.Settings
 {
     public class DisqusPartSettings
     {
