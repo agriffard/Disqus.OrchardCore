@@ -1,10 +1,8 @@
 ﻿@model DisqusPartViewModel
 
 <div class="form-group">
-    <div class="form-check">
-        <label class="form-check-label" asp-for="ShowComments">
-            <input asp-for="ShowComments" type="checkbox" class="form-check-input" />
-            @T["Show comments"]
-        </label>
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" asp-for="ShowComments"/>
+        <label class="custom-control-label" asp-for="ShowComments">@T["Show comments"]</label>
     </div>
 </div>
