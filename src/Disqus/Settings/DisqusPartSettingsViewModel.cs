@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Disqus.Settings
+namespace Disqus.OrchardCore.Settings
 {
     public class DisqusPartSettingsViewModel
     {

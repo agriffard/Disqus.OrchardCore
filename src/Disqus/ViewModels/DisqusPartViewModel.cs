@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using OrchardCore.ContentManagement;
-using Disqus.Models;
-using Disqus.Settings;
+using Disqus.OrchardCore.Settings;
+using Disqus.OrchardCore.Models;
 
-namespace Disqus.ViewModels
+namespace Disqus.OrchardCore.ViewModels
 {
     public class DisqusPartViewModel
     {
         public string ShortName { get; set; }
 
-        public bool ShowComments { get; set; }
+        public bool HideComments { get; set; }
 
         [BindNever]
         public ContentItem ContentItem { get; set; }
