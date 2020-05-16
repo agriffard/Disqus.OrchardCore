@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-rc1-12929" />
-    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-rc1-12929" />
-    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-rc1-12929" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc1-12929" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc1-12929" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc1-12929" />
+    <PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="1.0.0-rc1-13211" />
+    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-rc1-13211" />
+    <PackageReference Include="OrchardCore.Data.Abstractions" Version="1.0.0-rc1-13211" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc1-13211" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc1-13211" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc1-13211" />
   </ItemGroup>
   
   <ItemGroup>
