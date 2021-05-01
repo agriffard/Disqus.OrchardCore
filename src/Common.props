@@ -5,7 +5,6 @@
     <Authors>Antoine Griffard</Authors>
     <RepositoryUrl>https://github.com/agriffard/Disqus.OrchardCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/Disqus.OrchardCore</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/agriffard/Disqus.OrchardCore/blob/master/LICENSE.txt</PackageLicenseUrl>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
