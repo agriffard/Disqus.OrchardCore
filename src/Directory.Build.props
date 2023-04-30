@@ -5,7 +5,7 @@
     <Title>Disqus module for Orchard Core</Title>
     <Description>The Disqus module allows you to add comments on a content type.</Description>
     <PackageTags>Disqus;OrchardCore</PackageTags>
-    <VersionPrefix>1.5.0</VersionPrefix>
+    <VersionPrefix>1.6.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
