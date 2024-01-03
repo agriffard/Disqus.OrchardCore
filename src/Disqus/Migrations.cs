@@ -1,6 +1,7 @@
 ﻿using OrchardCore.ContentManagement.Metadata.Settings;
 using OrchardCore.ContentManagement.Metadata;
 using OrchardCore.Data.Migration;
+using System.Threading.Tasks;
 
 namespace Disqus.OrchardCore
 {
@@ -13,9 +14,9 @@ namespace Disqus.OrchardCore
             _contentDefinitionManager = contentDefinitionManager;
         }
 
-        public int Create()
+        public async Task<int> CreateAsync()
         {
-            _contentDefinitionManager.AlterPartDefinition("DisqusPart", builder => builder
+            await _contentDefinitionManager.AlterPartDefinitionAsync("DisqusPart", builder => builder
                 .Attachable()
                 .WithDescription("Provides a Disqus comment section for your content item."));
 
