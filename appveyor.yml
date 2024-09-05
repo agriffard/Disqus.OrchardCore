@@ -8,7 +8,7 @@ install:
   - ps: $IsDevBranch = ($env:APPVEYOR_REPO_BRANCH -eq "dev" -And -not $env:APPVEYOR_PULL_REQUEST_NUMBER)
 # Uncomment to download a specific version of dotnet
   - ps: Invoke-WebRequest "https://raw.githubusercontent.com/dotnet/cli/master/scripts/obtain/dotnet-install.ps1" -OutFile "dotnet-install.ps1" 
-  - ps: .\dotnet-install.ps1 --Version 8.0.100
+  - ps: .\dotnet-install.ps1 --Version 8.0.401
 build_script:
   - dotnet restore
   - dotnet build -c Release
@@ -26,6 +26,6 @@ deploy:
       branch: master
     server: https://www.nuget.org/api/v2/package
     api_key:
-      secure: /Rej9Vfc4B+9aH08tUOYnEoKfcLnEjg5KGMm2rl1Oqq6ajaE/9nG71BCCgzfm+3y
+      secure: jkH4D4OSooevIdRKb14SOWgt5U9+cCiOS4+DU947SszReOBYmT9MoknCw7fC3eZk
     skip_symbols: true
     artifact: /.*\.nupkg/  
