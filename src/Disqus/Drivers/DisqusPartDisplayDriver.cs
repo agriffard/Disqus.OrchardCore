@@ -1,12 +1,11 @@
-﻿using System.Threading.Tasks;
-using OrchardCore.ContentManagement.Display.ContentDisplay;
-using OrchardCore.ContentManagement.Metadata;
-using OrchardCore.DisplayManagement.ModelBinding;
-using OrchardCore.DisplayManagement.Views;
-using Disqus.OrchardCore.Models;
-using Disqus.OrchardCore.ViewModels;
+﻿using Disqus.OrchardCore.Models;
 using Disqus.OrchardCore.Settings;
+using Disqus.OrchardCore.ViewModels;
+using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.ContentManagement.Display.Models;
+using OrchardCore.ContentManagement.Metadata;
+using OrchardCore.DisplayManagement.Views;
+using System.Threading.Tasks;
 
 namespace Disqus.OrchardCore.Drivers
 {
@@ -37,11 +36,11 @@ namespace Disqus.OrchardCore.Drivers
             });
         }
 
-        public override async Task<IDisplayResult> UpdateAsync(DisqusPart model, IUpdateModel updater)
+        public override async Task<IDisplayResult> UpdateAsync(DisqusPart model, UpdatePartEditorContext context)
         {
-            await updater.TryUpdateModelAsync(model, Prefix, t => t.HideComments);
+            await context.Updater.TryUpdateModelAsync(model, Prefix, t => t.HideComments);
             
-            return Edit(model);
+            return Edit(model, context);
         }
 
         private Task BuildViewModel(DisqusPartViewModel model, DisqusPart part, BuildPartDisplayContext context)
