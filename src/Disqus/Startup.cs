@@ -1,4 +1,4 @@
-﻿using Disqus.OrchardCore.Drivers;
+using Disqus.OrchardCore.Drivers;
 using Disqus.OrchardCore.Models;
 using Disqus.OrchardCore.ViewModels;
 using Fluid;
@@ -21,8 +21,10 @@ namespace Disqus.OrchardCore
             });
             services.AddContentPart<DisqusPart>()
                 .UseDisplayDriver<DisqusPartDisplayDriver>();
-            services.AddSiteDisplayDriver<DisqusPartSettingsDisplayDriver>();
-            services.AddScoped<IDataMigration, Migrations>();
+            services.AddSiteDisplayDriver<DisqusPartSettingsDisplayDriver>()            
+                .AddPermissionProvider<Permissions>()
+                .AddNavigationProvider<AdminMenu>();
+            services.AddDataMigration<Migrations>();
         }
     }
 }

@@ -35,15 +35,15 @@ namespace Disqus.OrchardCore.Drivers
                 model.ShortName = settings.ShortName;
                 model.DisqusPartSettings = settings;
 
-            }).Location("Content").OnGroup(DisqusConstants.Features.Disqus);
+            }).Location("Content").OnGroup(SettingsGroupId);
         }
 
         protected override string SettingsGroupId
-            => DisqusConstants.Features.Disqus;
+            => DisqusPartSettings.GroupId;
 
         public override async Task<IDisplayResult> UpdateAsync(ISite site, DisqusPartSettings settings, UpdateEditorContext context)
         {
-            if (context.GroupId == DisqusConstants.Features.Disqus)
+            if (context.GroupId == SettingsGroupId)
             {
                 var model = new DisqusPartSettingsViewModel();
                 await context.Updater.TryUpdateModelAsync(model, Prefix);
