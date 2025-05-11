@@ -24,8 +24,8 @@ public sealed class AdminMenu : AdminNavigationProvider
     protected override ValueTask BuildAsync(NavigationBuilder builder)
     {        
         builder            
-            .Add(S["Settings"], settings => settings
-                .Add(S["Security"], S["Security"].PrefixPosition(), security => security
+            .Add(S["Configuration"], configuration => configuration
+                .Add(S["Settings"], S["Settings"].PrefixPosition(), settings => settings
                     .Add(S["Disqus"], S["Disqus"].PrefixPosition(), entry => entry
                         .AddClass("disqus")
                         .Id("disqus")
