@@ -2,6 +2,7 @@ using Disqus.OrchardCore.Settings;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Localization;
 using OrchardCore.Navigation;
+using System.Threading.Tasks;
 
 namespace Disqus.OrchardCore;
 

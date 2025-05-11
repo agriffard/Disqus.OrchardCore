@@ -8,6 +8,8 @@ using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.Data.Migration;
 using OrchardCore.DisplayManagement.Handlers;
 using OrchardCore.Modules;
+using OrchardCore.Navigation;
+using OrchardCore.Security.Permissions;
 
 namespace Disqus.OrchardCore
 {
