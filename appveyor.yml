@@ -26,6 +26,6 @@ deploy:
       branch: master
     server: https://www.nuget.org/api/v2/package
     api_key:
-      secure: jkH4D4OSooevIdRKb14SOWgt5U9+cCiOS4+DU947SszReOBYmT9MoknCw7fC3eZk
+      secure: TXCBn4aTeRqO6wEVP5BUYO3ekVoYHBIV9qbuwr8BswjnDCCmZVBDSti99PUK2emF
     skip_symbols: true
     artifact: /.*\.nupkg/  
